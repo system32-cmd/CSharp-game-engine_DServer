@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\feltoza\\Downloads\\Game engine\\SGE\\SGE.csproj": {}
+    "/workspaces/CSharp-game-engine_DServer/Game engine/SGE/SGE.csproj": {}
   },
   "projects": {
-    "C:\\Users\\feltoza\\Downloads\\Game engine\\SGE\\SGE.csproj": {
+    "/workspaces/CSharp-game-engine_DServer/Game engine/SGE/SGE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\feltoza\\Downloads\\Game engine\\SGE\\SGE.csproj",
+        "projectUniqueName": "/workspaces/CSharp-game-engine_DServer/Game engine/SGE/SGE.csproj",
         "projectName": "SGE",
-        "projectPath": "C:\\Users\\feltoza\\Downloads\\Game engine\\SGE\\SGE.csproj",
-        "packagesPath": "C:\\Users\\feltoza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\feltoza\\Downloads\\Game engine\\SGE\\obj\\",
+        "projectPath": "/workspaces/CSharp-game-engine_DServer/Game engine/SGE/SGE.csproj",
+        "packagesPath": "/home/codespace/.nuget/packages/",
+        "outputPath": "/workspaces/CSharp-game-engine_DServer/Game engine/SGE/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\feltoza\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0-windows"
@@ -38,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -47,6 +47,12 @@
             "Microsoft.CodeAnalysis.CSharp": {
               "target": "Package",
               "version": "[4.9.0, )"
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.25, )",
+              "autoReferenced": true
             },
             "Raylib-cs": {
               "target": "Package",
@@ -71,19 +77,31 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.26, 8.0.26]"
+              "version": "[8.0.25, 8.0.25]"
+            },
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[8.0.25, 8.0.25]"
             },
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[8.0.26, 8.0.26]"
+              "version": "[8.0.25, 8.0.25]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.26, 8.0.26]"
+              "version": "[8.0.25, 8.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[8.0.25, 8.0.25]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.26, 8.0.26]"
+              "version": "[8.0.25, 8.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[8.0.25, 8.0.25]"
             }
           ],
           "frameworkReferences": {
@@ -94,7 +112,12 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.107/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
         }
       }
     }
